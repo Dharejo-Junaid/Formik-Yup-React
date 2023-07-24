@@ -26,7 +26,18 @@
     grid-template-columns: 1fr 2fr;
 }
 
-#name, #email, #password, #submit {
+.submit-form-phone-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.submit-form-phone-row {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+#name, #email, #password, #submit,
+.submit-form-phone {
     font-size: large;
     padding: 5px;
 }
